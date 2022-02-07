@@ -1,0 +1,23 @@
+y <- c(18,20,14,16,12,7,11,5,27,28,23,27,21,14,16)
+x <- c(5,11,11,13,18,22,25,29,12,18,18,24,26,30,35)
+plot(x[1:8],y[1:8],xlab="Firm Size",ylab="# Months Elapsed",pch=15,
+     ylim=c(5,30),xlim=c(5,35),axes=F,cex.lab=1.6,cex=1.5,mgp=c(2.7,1,0))
+box()
+points(x[9:15],y[9:15],pch=0,cex=1.5)
+reg1 <- lm(y[1:8]~x[1:8])
+abline(reg1,lwd=2)
+reg2 <- lm(y[9:15]~x[9:15])
+abline(reg2,lwd=2)
+legend(26,30,c("Stock","Mutual"),pch=c(0,15),cex=1.5)
+
+y <- c(18,20,14,16,12,7,11,5,40,42,31,32,24,10,12)
+x <- c(5,11,11,13,18,22,25,29,5,11,11,17,19,23,28)
+plot(x[1:8],y[1:8],xlab="Firm Size",ylab="# Months Elapsed",pch=15,
+     ylim=c(5,45),xlim=c(5,30),axes=F,cex.lab=1.6,cex=1.5,mgp=c(2.7,1,0))
+box()
+points(x[9:15],y[9:15],pch=0,cex=1.5)
+reg1 <- lm(y[1:8]~x[1:8])
+abline(reg1,lwd=2)
+reg2 <- lm(y[9:15]~x[9:15])
+abline(reg2,lwd=2)
+legend(22,44,c("Stock","Mutual"),pch=c(0,15),cex=1.5)
