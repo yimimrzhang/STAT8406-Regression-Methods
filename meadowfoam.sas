@@ -5,7 +5,7 @@ options pageno=1;
 *Import a local data set into SAS.;
 data meadowfoam;
 length obs $24. flowers 8. intensity 8. timing $24.; *read up to 24 character values;
-infile 'C:\Users\yzhang09\Documents\CourseWork\MAT8406_sp17\Data\meadowfoam.txt' FIRSTOBS=2 DLM=','; *DLM=','indicates a comma is the delimiter;
+infile 'C:\Users\yzhang09\Documents\CourseWork\STAT8406_sp22\Data\meadowfoam.txt' FIRSTOBS=2 DLM=','; *DLM=','indicates a comma is the delimiter;
 input obs$ flowers intensity timing$ ; *indicate $ if a categorical variable;
 run;
 
