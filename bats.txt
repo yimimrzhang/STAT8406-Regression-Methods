@@ -1,0 +1,21 @@
+"","species","mass","type","energy","logmass","logenergy"
+"1","Pteropus gouldii         ",779,"Non-echolocating bats",43.7000007629395,2.89153745767256,1.64048144455258
+"2","Pteropus poliocephalus   ",628,"Non-echolocating bats",34.7999992370605,2.7979596437372,1.54157923442531
+"3","Hypsignathus monstrosus  ",258,"Non-echolocating bats",23.2999992370605,2.41161970596323,1.3673559068054
+"4","Eidolon helvum           ",315,"Non-echolocating bats",22.3999996185303,2.4983105537896,1.35024801093817
+"5","Meliphaga virescens      ",24.2999992370605,"Non-echolocating birds",2.46000003814697,1.3856062599629,0.39093511383794
+"6","Melipsittacus undulatus  ",35,"Non-echolocating birds",3.9300000667572,1.54406804435028,0.594392557752598
+"7","Sturnus vulgaris         ",72.8000030517578,"Non-echolocating birds",9.14999961853027,1.86213139751855,0.961421075960415
+"8","Falco spaverius          ",120,"Non-echolocating birds",13.8000001907349,2.07918124604762,1.13987909240378
+"9","Falco tinnunculus        ",213,"Non-echolocating birds",14.6000003814697,2.32837960343874,1.16435286713171
+"10","Corvus ossifragus        ",275,"Non-echolocating birds",22.7999992370605,2.43933269383026,1.35793483246798
+"11","Larus atricilla          ",370,"Non-echolocating birds",26.2000007629395,2.56820172406699,1.41830130396633
+"12","Columba livia            ",384,"Non-echolocating birds",25.8999996185303,2.58433122436753,1.41329975768472
+"13","Columba livia            ",442,"Non-echolocating birds",29.5,2.64542226934909,1.46982201597816
+"14","Columba livia            ",412,"Non-echolocating birds",43.7000007629395,2.61489721603313,1.64048144455258
+"15","Columba livia            ",330,"Non-echolocating birds",34,2.51851393987789,1.53147891704226
+"16","Corvus crytoleucos       ",480,"Non-echolocating birds",27.7999992370605,2.68124123737559,1.44404478399936
+"17","Phyllostomas hastatus    ",93,"Echolocating bats",8.82999992370605,1.96848294855394,0.945960699825129
+"18","Plecotus auritus         ",8,"Echolocating bats",1.35000002384186,0.903089986991944,0.130333776164923
+"19","Pipistrellus pipistrellus",6.69999980926514,"Echolocating bats",1.12000000476837,0.826074790337379,0.0492180245191793
+"20","Plecotus auritus         ",7.69999980926514,"Echolocating bats",1.01999998092651,0.886490714414677,0.00860016364082938
