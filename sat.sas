@@ -5,7 +5,7 @@ options pageno=1;
 *Import a local data set into SAS.;
 data sat;
 length state $24. ; *read up to 24 character values;
-infile 'C:\Users\yzhang09\Documents\CourseWork\MAT8406_sp17\Data\sat.txt' FIRSTOBS=2 DLM=','; *DLM=','indicates a comma is the delimiter;
+infile 'C:\Users\yzhang09\Documents\CourseWork\Data\sat.txt' FIRSTOBS=2 DLM=','; *DLM=','indicates a comma is the delimiter;
 input state$ sat takers  income years public expend rank ; *indicate $ if a categorical variable;
 run;
 
