@@ -11,7 +11,8 @@ anova(reg4.out)                              # Regression ANOVA table
 # Fit the ridge regression model
 # ============================================
 library(glmnet)                      # Load package 'glmnet'
-x<-cbind(intensity,timing)           # Combine variables by column
+timing2 <- as.numeric(timing=="At PFI")    # Codes timing2 = 1 if "At PFI"
+x<-cbind(intensity,timing2)                # Combine variables by column
 y<-flowers
 grid<-10^seq(10,-2, length=100)        # Create a grid of lambda values
 ridge.mod=cv.glmnet(x,y,lambda=grid,   # Build a CV ridge regression          
